@@ -17,3 +17,12 @@ Brazilian zip code search engine using the viacep api.
 ### Run the project:
 
     Using a web browser.
+
+## Resources:
+
+- **Project:**
+  - **Generator:** https://code043.github.io/html5-buscador-cep/
+- **Deploy:**
+  - **GitHub Pages:** https://pages.github.com/
+- **Editor:**
+  - **Vscode:** https://code.visualstudio.com/download
