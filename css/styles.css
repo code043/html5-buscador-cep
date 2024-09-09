@@ -6,6 +6,7 @@
 }
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -31,11 +32,13 @@ body {
 }
 .container .box {
   width: 620px;
+  padding: 20px;
 }
 .titulo {
   font-size: 30px;
   text-align: center;
   color: #fafcff;
+  margin-top: 30px;
   margin-bottom: 28px;
 }
 .search {
@@ -89,7 +92,6 @@ body {
   background-color: #705fda;
   width: 200px;
   height: 40px;
-  margin-right: 5px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -140,7 +142,7 @@ body {
   margin-bottom: 2px;
 }
 
-/* ----------------------   test --------------- */
+/* ----------  Responsive Layout ----------- */
 
 @media (max-width: 704px) {
   .container .box {
@@ -153,7 +155,12 @@ body {
     height: auto;
     border-radius: 5px;
   }
-
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+  }
   .search {
     justify-content: center;
     flex-direction: column;
@@ -162,19 +169,27 @@ body {
     margin-bottom: 20px;
   }
   #buscar {
-    width: 370px;
+    width: 380px;
   }
 
   #limpar {
-    width: 370px;
+    width: 380px;
   }
-
+  .data-contents div {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
   .data-contents {
-    grid-template-columns: 1fr;
     justify-items: center;
     align-content: center;
-    gap: 1px;
+    gap: 8px;
     width: 400px;
+  }
+  .data-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .data-contents label {
@@ -188,6 +203,31 @@ body {
     width: 180px;
   }
 }
+
+@media (max-width: 443px) {
+  #buscar {
+    width: 300px;
+  }
+
+  #limpar {
+    width: 300px;
+  }
+  .flex {
+    width: 300px;
+  }
+
+  .input-xl {
+    width: 300px;
+  }
+
+  .input-lg {
+    width: 300px;
+  }
+  .input-md {
+    width: 140px;
+  }
+}
+
 .git {
   text-decoration: none;
   margin-top: 30px;
