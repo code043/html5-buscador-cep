@@ -140,7 +140,7 @@ body {
   margin-bottom: 2px;
 }
 
-/* ----------------------   responsive --------------- */
+/* ----------------------   test --------------- */
 
 @media (max-width: 704px) {
   .container .box {
@@ -187,4 +187,8 @@ body {
   .input-md {
     width: 180px;
   }
+}
+.git {
+  text-decoration: none;
+  margin-top: 30px;
 }
