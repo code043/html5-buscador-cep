@@ -146,6 +146,10 @@ body {
 /* ----------  Responsive Layout ----------- */
 
 @media (max-width: 704px) {
+  body {
+    height: 143vh;
+    background-color: #4872b1;
+  }
   .container .box {
     display: flex;
     flex-direction: column;
