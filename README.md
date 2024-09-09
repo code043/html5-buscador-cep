@@ -21,7 +21,7 @@ Brazilian zip code search engine using the viacep api.
 ## Resources:
 
 - **Project:**
-  - **Generator:** https://code043.github.io/html5-buscador-cep/
+  - **Buscador:** https://code043.github.io/html5-buscador-cep/
 - **Deploy:**
   - **GitHub Pages:** https://pages.github.com/
 - **Editor:**
