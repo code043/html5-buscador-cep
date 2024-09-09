@@ -26,6 +26,8 @@ body {
 }
 .flex {
   display: flex;
+  gap: 1px;
+  width: 370px;
 }
 .container .box {
   width: 620px;
@@ -136,4 +138,53 @@ body {
   line-height: 1.4;
   color: #444444;
   margin-bottom: 2px;
+}
+
+/* ----------------------   responsive --------------- */
+
+@media (max-width: 704px) {
+  .container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .search {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  #buscar {
+    width: 370px;
+  }
+
+  #limpar {
+    width: 370px;
+  }
+
+  .data-contents {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: center;
+    gap: 1px;
+    width: 400px;
+  }
+
+  .data-contents label {
+    width: 100px;
+  }
+
+  .input-lg {
+    width: 380px;
+  }
+  .input-md {
+    width: 180px;
+  }
 }
