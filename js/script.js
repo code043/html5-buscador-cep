@@ -51,5 +51,9 @@ function limpar() {
   estadoInput.value = "";
   regiaoInput.value = "";
 }
-buscaCepbotao.addEventListener("click", buscarCep);
-limpaBotao.addEventListener("click", limpar);
+const eventos = ["click", "touchstart"];
+
+eventos.forEach((evento) => {
+  buscaCepbotao.addEventListener(evento, buscarCep);
+  limpaBotao.addEventListener(evento, limpar);
+});

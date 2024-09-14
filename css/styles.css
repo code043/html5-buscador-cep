@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 120vh;
+  height: 90vh;
   background-color: #f9fbfe;
   font-family: "Roboto", system-ui;
 }
@@ -22,7 +22,7 @@ body {
   height: 500px;
   background-color: #4872b1;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-bottom: 20px;
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.4);
 }
@@ -147,7 +147,7 @@ body {
 
 @media (max-width: 704px) {
   body {
-    height: 143vh;
+    height: 90vh;
     background-color: #4872b1;
   }
   .container .box {
